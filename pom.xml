@@ -40,7 +40,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 	<scm>
 		<connection>scm:git:ssh://git@github.com:levigo/levigo-oss-parent.git</connection>
-		<developerConnection>scm:ssh://git:git@github.com:levigo/levigo-oss-parent.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com:levigo/levigo-oss-parent.git</developerConnection>
 		<url>https://github.com/levigo/levigo-oss-parent</url>
 	</scm>
 
