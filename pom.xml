@@ -91,6 +91,8 @@ POSSIBILITY OF SUCH DAMAGE.
 					<configuration>
 						<!-- Not pushing changes to the origin repository, as this doesn't work well right now. -->
 						<pushChanges>false</pushChanges>
+						<!-- Like with pushChanges we're using the local repository to do the checkout. -->
+						<localCheckout>true</localCheckout>
 						<mavenExecutorId>forked-path</mavenExecutorId>
 						<useReleaseProfile>false</useReleaseProfile>
 						<arguments>-Plevigo-oss-release</arguments>
