@@ -89,6 +89,8 @@ POSSIBILITY OF SUCH DAMAGE.
 					<artifactId>maven-release-plugin</artifactId>
 					<version>2.3</version>
 					<configuration>
+						<!-- Not pushing changes to the origin repository, as this doesn't work well right now. -->
+						<pushChanges>false</pushChanges>
 						<mavenExecutorId>forked-path</mavenExecutorId>
 						<useReleaseProfile>false</useReleaseProfile>
 						<arguments>-Plevigo-oss-release</arguments>
