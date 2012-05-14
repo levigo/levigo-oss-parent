@@ -39,8 +39,8 @@ POSSIBILITY OF SUCH DAMAGE.
 	<description>This is the parent POM for open source projects and demos</description>
 
 	<scm>
-		<connection>scm:git:git@github.com/levigo/levigo-oss-parent.git</connection>
-		<developerConnection>scm:git:git@github.com/levigo/levigo-oss-parent.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/levigo/levigo-oss-parent.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/levigo/levigo-oss-parent.git</developerConnection>
 		<url>https://github.com/levigo/levigo-oss-parent</url>
 	</scm>
 
