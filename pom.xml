@@ -26,13 +26,12 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWIS
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
 POSSIBILITY OF SUCH DAMAGE.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.levigo</groupId>
 	<artifactId>levigo-oss-parent</artifactId>
-	<version>1-SNAPSHOT</version>
+	<version>1</version>
 	<packaging>pom</packaging>
 
 	<name>levigo open source software parent</name>
@@ -42,7 +41,8 @@ POSSIBILITY OF SUCH DAMAGE.
 		<connection>scm:git:ssh://git@github.com/levigo/levigo-oss-parent.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/levigo/levigo-oss-parent.git</developerConnection>
 		<url>https://github.com/levigo/levigo-oss-parent</url>
-	</scm>
+	  <tag>levigo-oss-parent-1</tag>
+  </scm>
 
 
 	<distributionManagement>
