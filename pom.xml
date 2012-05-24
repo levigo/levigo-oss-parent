@@ -36,14 +36,23 @@ POSSIBILITY OF SUCH DAMAGE.
 
 	<name>levigo open source software parent</name>
 	<description>This is the parent POM for open source projects and demos</description>
+	<url>https://github.com/levigo/levigo-oss-parent</url>
+
+	<organization>
+		<name>levigo holding gmbh</name>
+		<url>http://www.levigo.de/</url>
+	</organization>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
 	<scm>
 		<connection>scm:git:ssh://git@github.com/levigo/levigo-oss-parent.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/levigo/levigo-oss-parent.git</developerConnection>
 		<url>https://github.com/levigo/levigo-oss-parent</url>
-	  <tag>HEAD</tag>
-  </scm>
-
+		<tag>HEAD</tag>
+	</scm>
 
 	<distributionManagement>
 		<snapshotRepository>
@@ -101,10 +110,6 @@ POSSIBILITY OF SUCH DAMAGE.
 			</plugins>
 		</pluginManagement>
 	</build>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 
 	<profiles>
 		<profile>
